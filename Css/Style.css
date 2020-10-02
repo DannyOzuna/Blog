@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.ClearFlix{
+    clear: both;
+}
+
+body{
+    background-image:url('../Img/paven.png');
+}
+
+header{
+    width: 100%;
+}
+
+header > h1{
+    font-size: 30pt;
+    text-transform: uppercase;
+    color: white;
+    background-color: #0098d3;
+    line-height: 115pt;
+    height: 170px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Menu{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    box-shadow: 0px 0px 2px #333333;
+}
+
+#Menu ul{
+    list-style: none;
+    background-color: #f7f7f7;
+    
+    
+}
+
+#Menu ul > li{
+    display: block;
+    float: left;
+    border-left: 2px solid #cccccc;
+    
+}
+
+#Menu ul > li > a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    padding: 25px;
+    font-size: 20pt;
+    transition: all 300ms;
+}
+
+#Menu ul > li:first-child{
+    padding-left: 10px;
+}
+
+#Menu ul > li > a:hover{
+    color: white;
+    background-color: #1084b3;
+}
+
+section{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+main{
+    background-color: #f7f7f7;
+    display: block;
+    float: right;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 1px #333333;
+    width: 80%;
+}
+
+#Personal{
+    width: 100%;
+}
+
+#Personal > img{
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 600px;
+}
+
+#Personal > p{
+    font-size: 15pt;
+    font-family: cursive;
+    text-align: center;
+}
+
+#Information{
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#Information > h2 {
+    font-size: 30pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#Information p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+aside{
+    width: 15%;
+    border: 1px solid #cccccc;
+    box-shadow: 0px 0px 1px #333333;
+}
+
+aside > h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    margin-bottom: 20px;
+}
+
+aside ol {
+    list-style: none;
+}
+
+aside ol > li{
+    border-bottom: 1px solid #333333;
+}
+
+aside ol > li > a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    color: black;
+    padding: 5px;
+    font-size: 15pt;
+}
+
+aside ol > li > a:hover{
+    color: white;
+    background-color: #1084b3;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    background-color: #0098d3;
+}
+
+footer p{
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+
+}
+
